@@ -1,0 +1,33 @@
+@font-face {
+    font-family: "Charmonman";
+    src: url("Charmonman-Regular.ttf") format("truetype");
+    
+    
+    }
+
+
+body {background-image: url("./img/perro");background-image: 
+    color:white;
+    font-family: Charmonman;
+    font-weight: bold;
+    
+}    
+a {text-decoration-line: none}
+H1,h3 {color: steelblue;
+}
+h1 {font-size: 30px}
+h3 {font-size: 20px}
+span {color: yellow}
+div ul,ol {color: white}
+article p img {width: 300px;}
+img {width: 50px}
+hr {width: 90%}
+ol li a:hover{color: ghostwhite}
+button {
+    background-color:red; 
+    color: black;
+
+}
+button:hover {
+    background-color: lightgoldenrodyellow; 
+    color: orangered;}

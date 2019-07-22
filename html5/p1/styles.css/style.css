@@ -1,0 +1,14 @@
+
+body 
+p {color: royalblue;
+    font-size:  smaller;
+    background-color: paleturquoise;
+    width: 200px;;
+    }
+h1 {font-size: 40px;
+    background-color: yellow}
+body > div   img {width: 100%;
+    border: 2px solid blue;}
+    img {width: 100px;}
+p.rojo {background-color: black}
+article.bordeado{border: 3px dashed blue;}

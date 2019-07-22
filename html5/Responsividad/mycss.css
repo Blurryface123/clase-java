@@ -1,0 +1,15 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+header>div{height: 100px; background: red; display: inline-block; border: 2px turquoise; border-style: solid}
+nav {height: 100px; background: blue; display: inline-block; border: 2px turquoise; border-style: solid}
+
+section>div {height: 100px; background: yellow; display: inline-block; border: 2px turquoise; border-style: solid}
+article {height: 100px; background: wheat; display: block; border: 2px turquoise; border-style: solid}
+footer {height: 100px; background: tomato; display: block; border: 2px turquoise; border-style: solid}

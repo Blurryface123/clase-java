@@ -1,0 +1,43 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+
+    
+}
+#myform {
+    width: 25%;
+    height: 300px;
+    border: 2px;
+    background-color: black;
+    text-align: center;
+    border: 2px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+body span {color: orangered}
+.center {display: }
+
+input
+     {
+    width: 85%;
+    margin: 10px;
+    padding: 2px;
+    padding-left: 20px;
+    border-radius: 15px;
+    display: auto;
+    background-position: center;
+    background-size: 16px;
+}
+body div div div {text-align: left}
+#nombre {background-image: url(./img/multiple-users-silhouette.png);
+background-repeat: no-repeat; background-position: left; background-position-x: 3px}
+#email {background-image: url(./img/close-envelope.png);
+background-position: left; background-position-x: 3px; background-repeat: no-repeat}
+#phone {background-image: url(./img/telephone.png);
+background-position: left; background-position-x: 3px; background-repeat: no-repeat}
+#password {background-image: url(./img/lock.png);
+background-position: left; background-position-x: 3px; background-repeat: no-repeat}
+#agreement {}

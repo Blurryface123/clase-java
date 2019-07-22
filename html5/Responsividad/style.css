@@ -1,0 +1,24 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+
+
+}
+
+header>div{width: 19%; height: 100px; background: red; display: inline-block; border: 2px turquoise; border-style: solid}
+nav {width: 79%; height: 100px; background: blue; display: inline-block; border: 2px turquoise; border-style: solid}
+
+section>div {width: 32%; height: 100px; background: yellow; display: inline-block; border: 2px turquoise; border-style: solid}
+article {width: 50%; height: 100px; background: wheat; display: block; border: 2px turquoise; border-style: solid}
+footer {width: 50%; height: 100px; background: tomato; display: block; border: 2px turquoise; border-style: solid}
+
+
+
+
+
+@media screen and (min-width:360px) and(max-width: 435px) {
+header>div  {width: 100%}
+header>nav {width: 100%}
+section>div{width: 100%}

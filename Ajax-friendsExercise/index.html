@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AJAX</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <h1>AJAX</h1>
+
+    <h2>Face</h2>
+    <ul id="amigosface"></ul>
+
+    <h2>Spoty</h2>
+    <ul id="amigosspoty"></ul>
+
+    <button id="cargarbtnFace">Cargar amigos face</button>
+    <button id="cargarbtnSpoty">Cargar amigos spoty</button>
+
+
+
+    <div>
+        <h1>AÑADIR AMIGOS</h1>
+        <section>
+            <form id="loginForm" action="" method="POST" novalidate>
+                <div><input type="text" placeholder="username" minlength="3" id="username" required>
+                    <div id="errorusername" class="error esconder">Completa el username con el formato correcto</div>
+                </div>
+
+                <div>
+                    <input type="text" placeholder="email" pattern="[a-zA-Z0-9]*" id="email" required>
+                    <div id="erroremail" class="error esconder">Completa el email con el formato correcto</div>
+                </div>
+                <div><button id="accederbtn">Acceder</button></div>
+            </form>
+        </section>
+    </div>
+    </div>
+</body>
+<script src="./jquery-3.3.1.min.js"></script>
+<script src="./script.js"></script>
+
+</html>
