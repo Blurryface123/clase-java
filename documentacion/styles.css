@@ -1,0 +1,25 @@
+body {
+    background-image: url(./img/yellow_background.png);
+    font-family: 'Times New Roman'; 
+   
+    
+    )}
+body div div {
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;}
+h1,h2,h3 {
+    font-weight: normal}
+
+.col {
+    float: right;
+    width: 25%;
+    padding: 10px;; 
+        
+    }
+.cols ::after {
+        content: "";
+        clear: both;
+        display: table;
+           }
+li {list-style: none}
