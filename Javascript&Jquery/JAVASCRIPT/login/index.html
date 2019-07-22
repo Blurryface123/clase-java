@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div id="center">
+        <h1>Accede</h1>
+        <section>
+            <div id="mensaje" class="error esconder">Usuario y contraseña no válidos</div>
+
+            <form id="loginForm" action="" method="POST" novalidate>
+                <div>
+                    <input type="text" placeholder="username" minlength="3" id="username" name="username" required>
+                    <div id="errorusername" class="error esconder">Completa el username con el formato correcto</div>
+                </div>
+                <div>
+                    <input type="password" placeholder="password" pattern="[a-zA-Z0-9]*" id="password" name="password" required>
+                    <div id="errorpass" class="error esconder">Completa el password con el formato correcto</div>
+                </div>
+                <div><button id="accederbtn" >Acceder</button></div>
+            </form>
+        </section>
+    </div>
+</body>
+<script src="./jquery-3.3.1.min.js"></script>
+<script src="./script.js"></script>
+
+</html>

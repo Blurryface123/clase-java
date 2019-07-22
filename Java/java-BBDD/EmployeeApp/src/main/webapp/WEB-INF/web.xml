@@ -1,0 +1,14 @@
+<web-app version="3.1">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+  	<description>
+  	</description>
+  	<display-name>UsuarioServlet</display-name>
+  	<servlet-name>UsuarioServlet</servlet-name>
+  	<servlet-class>com.andres.controles.UsuarioServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  	<servlet-name>UsuarioServlet</servlet-name>
+  	<url-pattern>/usuario</url-pattern>
+  </servlet-mapping>
+</web-app>

@@ -1,0 +1,17 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+}
+
+div#center{width: 300px; margin: 0 auto;text-align: center;}
+
+
+form > div {margin: 10px 0;}
+form > div input {padding: 10px;}
+
+button{background: orangered;padding: 10px 20px; border: 0; color : white;}
+
+.error{color: red;}
+.esconder{display: none;}

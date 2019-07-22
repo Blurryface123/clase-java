@@ -1,0 +1,18 @@
+
+body{
+      padding: 0;
+      margin: 0;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   }
+   
+   section{
+      margin: 0 auto;
+   }
+   
+   section div{display: inline-block; width: 35px; height: 130px; border: 1px solid;}
+   section div.semi{
+      position: absolute;
+      background-color: black;
+      margin-left: -15px;
+      width: 25px;
+      height: 90px;}

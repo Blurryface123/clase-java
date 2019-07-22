@@ -1,0 +1,15 @@
+body{background-color:lightcyan;
+    margin: 100px;
+    padding: 20px;
+    border: 1px black solid;
+    color: rgb(6, 6, 63);
+    
+}
+
+
+button{border: black;
+      background-color: green;
+      border: 2px black solid;
+      border-radius: 5px;
+      color: white;
+      }
