@@ -1,0 +1,7 @@
+<section>
+  <form #loginform="ngForm" (ngSubmit)="acceder()">
+    <div><input type="email" placeholder="Email" name="email" [(ngModel)]="user.email"></div>
+    <div><input type="password" placeholder="Contraseña" name="pass" [(ngModel)]="user.pass"></div>
+    <div><button [disabled]="!loginform.valid">Acceder</button></div>
+  </form>
+</section>

@@ -1,0 +1,12 @@
+<!-- <p>
+    <!- no se puede poner solo usuarios porque es un objeto -->
+    <!-- {{pedidos|json}} -->
+ <!--  </p> -->
+  <input type="text" [(ngModel)]="valor">
+x{{valor}}x
+  <section>
+    <ul *ngFor="let aPedido of filtraPorDescripcion()">
+      <li>{{aPedido.pid}} - {{aPedido.descripcion}} </li>
+    </ul>
+    <p><a [routerLink]="['new']">Nuevo Pedido</a></p>
+  </section>

@@ -1,0 +1,11 @@
+<section>
+    <h1>Nuevo Pedido</h1>
+    <form #pedidosform="ngForm" (ngSubmit)="addPedidos()">
+      <div><input [(ngModel)]="nuevoPedido.pid" name="pid" type="number" placeholder="Pid" required></div>
+      <div><input [(ngModel)]="nuevoPedido.descripcion" name="descripcion" type="text" placeholder="Descripcion" required></div>
+      <div><input [(ngModel)]="nuevoPedido.monto" name="monto" type="number" min="0" placeholder="Monto" required></div>
+      <div><button [disabled]="!pedidosform.valid">Crear</button></div>
+    </form>
+  
+    <pre>{{nuevoPedido|json}}</pre>
+  </section>

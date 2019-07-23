@@ -1,0 +1,13 @@
+<!-- <p>
+  <!- no se puede poner solo usuarios porque es un objeto -->
+  <!-- {{usuarios|json}} -->
+<!-- </p> -->
+<input type="text" [(ngModel)]="valor">
+x{{valor}}x
+<section>
+  <ul *ngFor="let aUser of filtraPorNombre()">
+    <li>{{aUser.uid}} - {{aUser.nombre}} </li>
+  </ul>
+
+  <p><a [routerLink]="['new']">Nuevo Usuario</a></p>
+</section>
