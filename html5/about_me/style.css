@@ -1,0 +1,38 @@
+body {
+    
+    background: rgb(105, 124, 105);
+    /*body {background: url(./images/maxresdefault.jpg); background-size: contain;)*/
+    font-size: 16px;
+    font-family: 'Mali';
+    color: white;
+    }
+    
+    /*estilos globales */
+    h1, h2 {color: lightblue}
+    h1 {font-size: 30px}
+    h2 {font-size: 15px}
+    
+    a {color: red; text-decoration: none}
+    
+    a:hover {color: yellow}
+    
+    header:hover {background: blue; color: red;}
+    
+    button {background: red; color: white; border-radius: 10px;}
+    button:hover {background: lighcoral; color:yellow; cursor: pointer}
+    
+    .miboton {background: red; 
+        color: white; 
+        border-radius: 5px;
+        border=0;
+        padding: 10px 20 px;
+        text-transform: uppercase;}
+    
+    /*estilo del header */
+    header {border-bottom: 1px solid blue}
+    header > p {font-size: 12px}
+    header > p > span {color: yellow}
+    
+    /*estilo section*/
+    section > article > p {font-size: 11px; font-style: italic}
+    section > article > div {width: 40%} img {width: 100%}
