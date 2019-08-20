@@ -5,13 +5,15 @@
     
     }
 
-
+header{
+    color: aliceblue
+}
 body {background-image: url("./img/perro");background-image: 
     color:white;
     font-family: Charmonman;
     font-weight: bold;
-    
 }    
+
 a {text-decoration-line: none}
 H1,h3 {color: steelblue;
 }

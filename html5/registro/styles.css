@@ -1,0 +1,108 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px;
+    padding: 0px;
+    margin: 0px;
+    }
+
+#myform{
+    /*width:50%;*/
+    width: 350px;
+    height: 350px;
+    margin: auto;
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 10px;
+}
+
+h1 {font-family: Arial, Helvetica, sans-serif;
+font-size: 30px;
+padding: 30px 0px 0px 0px}
+
+input[type="text"],input[type="number"],input[type="password"],input[type="email"]{
+    border-radius: 20px;
+    margin: 10px;
+    padding: 5px;
+    border: none;
+    width: 85%;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    padding: 0px;
+    margin: 0px 0px 20px;
+}
+
+a {color: green}
+a:hover {color: yellow}
+
+button {background-color: green;
+    color:white;
+border: none;
+border-radius: 20px;
+padding: 5px 20px;
+margin: 0px 20px;
+font-size: 1.5em;
+}
+
+.der {text-align: right}
+
+#name {background-image: url(./images/man-user.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center left 4px;
+    padding-left: 22px;}
+
+#phonenumber {background-image: url(./images/telephone.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center left 4px;
+    padding-left: 25px;}
+
+#email {background-image: url(./images/close-envelope.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center left 4px;
+    padding-left: 25px;}
+
+#password {background-image: url(./images/lock.png);
+    background-size: 16px;
+    background-repeat: no-repeat;
+    background-position: center left 4px;
+    padding-left: 25px;}
+    
+
+/*body > div {background-color: black;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: 10px;
+color: white;
+width: 420px;
+height: 250px;}
+
+h1 {color: white;
+    size: 30px;}
+
+input[type="text"], input[type="number"], input[type=email], input[type=password] {background-color: rgb(238, 228, 228);
+    width: 300px;
+    border-radius: 10px;
+    margin: 5px;
+    font-size: 12px;}
+
+input[type=checkbox] {margin-bottom: 15px; size: 8px;}
+
+#terms {font-size: 20px}
+
+span > a {color: green}
+
+button {background-color: green;
+color: white;
+size: 16px;
+border: none;
+border-radius: 5px;
+width: 150px;
+padding: 7px;
+float: right;}*/
+
+
+

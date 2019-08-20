@@ -1,0 +1,24 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+    color: #2734e4;
+}
+
+h1 {font-style: italic;}
+
+label {width: 60px; display: inline-block}
+
+input[type=text], input[type=number], input[type=email] {width: 200px; border: 3px solid rgb(11, 63, 11); padding: 5px}
+
+
+textarea {width: 500px; border: 3px dashed rgb(46, 9, 49); padding: 5px; display: block}
+
+label[for="cuentame"] {width: 500px; margin: 5px}
+
+button {
+    padding: 5px 20px; background: black; color: white;
+    border: none; 
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+form > div {margin: 10px}

@@ -1,25 +1,29 @@
-@font-face {
-    font-family: "Charmonman";
-    src: url("Charmonman-Regular.ttf") format("truetype");
-        }
+body {background: url(./img/yellow_background.png);}
 
-body {
-    background-color: wheat;
-    font-family: "Verdana";
-}
-body > header h1 {font-family: Charmonman}
-/* Navigation */
-
-.derecha {
-    width: 900px;
+#main_wrapper
+{
+    width: auto;
     margin: auto;
-
 }
+
+header > div > div > div {display: inline-block}
+
+header > nav > ul {list-style-type: none;}
+
+header > nav > ul > li {
+    display: inline-block
+    }
+
+header {border-bottom: 3px solid rgb(168, 49, 69)}
+
+#banner {background: url(./img/sanfrancisco.jpg); background-repeat: no-repeat; height: 220px}
+
+#banner_descripcion {background: rgba(0,0,0,0.5); width: 100%; height: 50 px; position: absolute; float: bottom}
 
 nav
 {
     display: inline-block;
-    width: 900px;
+    width: 950px;
     text-align: right;
 }
 
